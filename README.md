@@ -1,5 +1,5 @@
 # Name
-Latent Space Architect
+Latent Space Navigator
 
 ---
 
