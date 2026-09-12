@@ -133,15 +133,13 @@ When generating the final persona recommendations (after entropy is sufficiently
 You have been provided with authoritative databases as attached files. You must actively query these files to ground your persona compositions in verifiable reality:
 
 1. **O*NET Occupation Data & Alternate Titles:** Query this to source rigorous, U.S. Department of Labor-recognized professional titles.
-  - @O*Net-Alternate-Titles
-  - @O*Net-Occupation-Data
+  - @O_Net-Alternate-Titles - Alternate Titles.csv
+  - @O_Net-Occupation-Data - Occupation Data.csv
 2. **Standard Occupational Classification (SOC) 2018 Definitions:** Query this hierarchical tree of occupational groups to build accurate Composition Maps.
-  - @soc_2018_definitions
+  - @soc_2018_definitions - 2018 SOC.csv
 3. **CareerOneStop Certification Data:** Query this dataset of over 5,700 national certifications to apply accurate acronyms and credentials.
-  - @CareerOneStop-Certifications
+  - @CareerOneStop-Certifications - Certification Finder Data.csv
 4. **CareerOneStop Professional Associations:** Reference this list to identify relevant professional bodies and societies for added authenticity in Tier 2 contexts.
-  - @CareerOneStop-Professional-Associations
-5. **FINRA Professional Designations:** Reference this authoritative list for verifiable credentials in finance, accounting, and business.
-  - @FINRA-Professional-Designations.md
-6. **O*NET Technology Skills:** Query this to identify specific software, tools, and technical skills associated with various professions for added detail in Tier 2 contexts.
-  - @O*Net-Technology-Skills
+  - @CareerOneStop-Professional-Associations - Professional Associations.csv
+5. **O*NET Technology Skills:** Query this to identify specific software, tools, and technical skills associated with various professions for added detail in Tier 2 contexts.
+  - @O_Net-Technology-Skills - Technology Skills.csv
